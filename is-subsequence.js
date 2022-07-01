@@ -8,7 +8,7 @@ var isSubsequence = function(s, t) {
 
   let index = 0;
   for (let i = 0; i < t.length; i++) {
-    if(t.charAt(i) === s[index]){
+    if(t.charAt(i) === s.charAt(index)){
       index++;
     }
     if(index >= s.length){
